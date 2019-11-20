@@ -1,0 +1,6 @@
+UPDATE jona_posts SET guid = replace(guid, 'http://hestalabs.com/dev3/jona/','http://localhost/jona-html/');
+UPDATE jona_posts SET post_content = replace(post_content, 'http://hestalabs.com/dev3/jona/', 'http://localhost/jona-html/');
+UPDATE jona_links SET link_url = replace(link_url, 'http://hestalabs.com/dev3/jona/', 'http://localhost/jona-html/');
+UPDATE jona_links SET link_image = replace(link_image, 'http://hestalabs.com/dev3/jona/', 'http://localhost/jona-html/');
+UPDATE jona_postmeta SET meta_value = replace(meta_value, 'http://hestalabs.com/dev3/jona/', 'http://localhost/jona-html/');
+UPDATE jona_usermeta SET meta_value = replace(meta_value, 'http://hestalabs.com/dev3/jona/', 'http://localhost/jona-html/');
